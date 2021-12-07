@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageFragment">
+
+    <ImageView
+        android:id="@+id/fon_image_view"
+        android:layout_width="412dp"
+        android:layout_height="263dp"
+        android:background="#8C6C6C"
+        android:src="@drawable/sport"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_log_view" />
+
+    <ImageView
+        android:id="@+id/image_log_view"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/image_log"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/information_text"
+        android:layout_width="379dp"
+        android:layout_height="156dp"
+        android:text="@string/about_sirius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fon_image_view" />
+
+    <Button
+        android:id="@+id/visit_site_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:gravity="center"
+        android:text="@string/visit_site"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/information_text" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

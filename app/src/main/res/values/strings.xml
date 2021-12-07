@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SiriusSport</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="visit_site">Посетите наш сайт</string>
+    <string name="textview">TextView</string>
+    <string name="trainers">Trainers:</string>
+    <string name="main_page">Главная</string>
+    <string name="trainers_page">Тренеры</string>
+    <string name="info_page">Контакты</string>
+    <string name="contact_text">Контакты:</string>
+    <string name="adsress_text">Наш адрес: 2-я Станционная 21</string>
+    <string name="email_soksirius_yandex_ru">Email: soksirius@yandex.ru</string>
+    <string name="telephone_text">Телефон: 7 (383) 362‒17‒05</string>
+    <string name="trainers_1">Наши тренеры:</string>
+    <string name="about_sirius">Добро пожаловать в КСиО "Сириус-Спорт"!
+    У нас вы можете прокачать свое тело, а так же посетить сауну, массаж и бильярд. Более подробную информацию вы узнаете на нашем сайте!</string>
+</resources>
